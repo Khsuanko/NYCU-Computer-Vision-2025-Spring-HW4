@@ -20,7 +20,6 @@ pip install torch torchvision torchaudio numpy opencv-python scikit-image tqdm m
 ./data/
     ├── train/
     ├── test/
-    ├── test_image_name_to_ids.json
 ```
 3. Run the code
 ```python
