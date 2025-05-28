@@ -28,4 +28,4 @@ python train.py
 python test.py
 ```
 ## Performance snapshot
-![performance](https://github.com/Khsuanko/NYCU-Computer-Vision-2025-Spring-HW3/blob/main/performance.png)
+![performance](https://github.com/Khsuanko/NYCU-Computer-Vision-2025-Spring-HW4/blob/main/performance.png)
