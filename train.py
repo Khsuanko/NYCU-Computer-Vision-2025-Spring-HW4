@@ -86,7 +86,7 @@ def validate(model, dataloader, device):
     return psnr_total / len(dataloader.dataset)
 
 if __name__ == '__main__':
-    num_epochs = 50
+    num_epochs = 70
     batch_size = 2
     learning_rate = 2e-4
     accumulation_steps = 8
