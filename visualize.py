@@ -50,7 +50,6 @@ def main():
     for img_name in images_to_visualize:
         degraded_path = os.path.join('data/train/degraded', img_name)
 
-        # Clean image names are like: rain_clean-1.png and snow_clean-1.png
         if img_name.startswith('rain'):
             clean_img_name = img_name.replace('rain-', 'rain_clean-')
         elif img_name.startswith('snow'):
