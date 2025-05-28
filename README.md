@@ -13,7 +13,7 @@ Our method leverages PromptIR, a transformer-based image restoration model. Prom
 ## How to install
 1. Install Dependencies  
 ```python
-pip install torch torchvision torchaudio numpy opencv-python scikit-image tqdm matplotlib pycocotools
+pip install torch torchvision numpy pillow scikit-learn tqdm matplotlib einops
 ```
 2. Ensure you have the dataset structured as follows:
 ```python
