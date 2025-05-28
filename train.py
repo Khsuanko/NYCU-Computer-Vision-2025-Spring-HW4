@@ -137,6 +137,9 @@ if __name__ == '__main__':
         val_psnr = validate(model, val_loader, device)
         scheduler.step()
 
+        train_losses.append(train_loss)
+        val_psnrs.append(val_psnr)
+
         print(f"Epoch {epoch+1}/{num_epochs} | Train Loss: {train_loss:.4f} | Val PSNR: {val_psnr:.2f} dB")
 
         if val_psnr > best_psnr:
